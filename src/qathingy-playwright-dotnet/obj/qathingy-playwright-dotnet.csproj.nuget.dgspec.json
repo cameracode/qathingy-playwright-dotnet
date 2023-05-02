@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\qathingy-playwright-dotnet\\qathingy-playwright-dotnet\\qathingy-playwright-dotnet.csproj": {}
+    "C:\\GitHub\\qathingy-playwright-dotnet\\src\\qathingy-playwright-dotnet\\qathingy-playwright-dotnet.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\qathingy-playwright-dotnet\\qathingy-playwright-dotnet\\qathingy-playwright-dotnet.csproj": {
+    "C:\\GitHub\\qathingy-playwright-dotnet\\src\\qathingy-playwright-dotnet\\qathingy-playwright-dotnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\qathingy-playwright-dotnet\\qathingy-playwright-dotnet\\qathingy-playwright-dotnet.csproj",
+        "projectUniqueName": "C:\\GitHub\\qathingy-playwright-dotnet\\src\\qathingy-playwright-dotnet\\qathingy-playwright-dotnet.csproj",
         "projectName": "qathingy-playwright-dotnet",
-        "projectPath": "C:\\GitHub\\qathingy-playwright-dotnet\\qathingy-playwright-dotnet\\qathingy-playwright-dotnet.csproj",
+        "projectPath": "C:\\GitHub\\qathingy-playwright-dotnet\\src\\qathingy-playwright-dotnet\\qathingy-playwright-dotnet.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\qathingy-playwright-dotnet\\qathingy-playwright-dotnet\\obj\\",
+        "outputPath": "C:\\GitHub\\qathingy-playwright-dotnet\\src\\qathingy-playwright-dotnet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -41,6 +41,10 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.1.0, )"
+            },
+            "Microsoft.Playwright.NUnit": {
+              "target": "Package",
+              "version": "[1.32.0, )"
             },
             "NUnit": {
               "target": "Package",
