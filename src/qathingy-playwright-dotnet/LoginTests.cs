@@ -3,7 +3,7 @@ using NUnit.Framework;
 
 namespace qathingy_playwright_dotnet;
 
-public class Tests
+public class LoginTests
 {
     [SetUp]
     public void Setup()
@@ -11,7 +11,7 @@ public class Tests
     }
 
     [Test]
-    public async Task Test1()
+    public async Task Login_ExpectFailure()
     {
         // Playwright
         using var playwright = await Playwright.CreateAsync();
