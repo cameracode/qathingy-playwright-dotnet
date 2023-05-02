@@ -16,7 +16,12 @@ public class LoginTests
         // Playwright
         using var playwright = await Playwright.CreateAsync();
         // Browser
-        await using var browser = await playwright.Chromium.LaunchAsync();
+        //await using var browser = await playwright.Chromium.LaunchAsync();
+        await using var browser = await playwright.Chromium.LaunchAsync(new()
+        {
+            Headless = false,
+            SlowMo = 1000,
+        });
         // Page
         var page = await browser.NewPageAsync();
         await page.GotoAsync("http://zero.webappsecurity.com/index.html");
